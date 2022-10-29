@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Scoreboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" async defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+                <div class="screen"></div>
+                    <p id="score">1</p>
+                <div class="kocka1">
+                    <span id="num1" onclick="num1_clicked()"> +1 </span>    
+                </div>
+                <div class="kocka2">
+                    <span id="num2" onclick="num2_clicked()"> +2 </span>
+                </div>
+                <div class="kocka3">
+                    <span id="num3" onclick="num3_clicked()"> +3 </span>
+                </div>
+        </div>
+        <div id="reset_btn">
+            <span id="reset_text" onclick="reset_clicked()"> Reset </span>
+        </div>
+    </body>
+</html>

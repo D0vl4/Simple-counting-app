@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 275px;
+    height: 430px;
+    background: #d7e7ed;
+    border-radius: 20px;
+}
+
+.screen {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    left: 40px;
+    top: 125px;
+    background-color: #e39774;
+    border-radius: 10px;
+    box-shadow: 4px 4px #326273;
+}
+
+.kocka1 {
+    position: absolute;
+    width: 47px;
+    height: 50px;
+    top: 260px;
+    left: 40px;
+    background-color: #326273;
+    border-radius: 5px;
+    box-shadow: 4px 4px #e39774;
+    cursor: pointer;
+}
+
+#num1 {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 400;
+    top: -4px;
+    left: 10px;
+    color: #e39774;
+    z-index: 1;
+}
+
+.kocka1:active, .kocka2:active, .kocka3:active, #reset_btn:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px #e39774;
+    transition: .2s ease-out;    
+}
+
+.kocka2 {
+    position: absolute;
+    width: 47px;
+    height: 50px;
+    top: 260px;
+    left: 97px;
+    background-color: #326273;
+    border-radius: 5px;
+    box-shadow: 4px 4px #e39774;
+    cursor: pointer;
+}
+
+#num2 {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 400;
+    top: -4px;
+    left: 7px;
+    color: #e39774;
+}
+
+.kocka3 {
+    position: absolute;
+    width: 47px;
+    height: 50px;
+    top: 260px;
+    left: 153px;
+    background-color: #326273;
+    border-radius: 5px;
+    box-shadow: 4px 4px #e39774;
+    cursor: pointer;
+}
+
+#num3 {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 400;
+    top: -4px;
+    left: 7px;
+    color: #e39774;
+    z-index: 1;
+}
+
+#score {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500;
+    color: #326273;
+    top: 10rem;
+    right: 1rem;
+}
+
+h3 {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: #326273;
+}
+
+#reset_btn {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 40px;
+    top: 325px;
+    background-color: #e39774;
+    border-radius: 10px;
+    box-shadow: 4px 4px #326273;
+    cursor: pointer;
+}
+
+#reset_text {
+    position: absolute;
+    top: -9px;
+    left: 47px;
+    font-size: 1.5rem;
+    color: #326273;
+    z-index: 1;
+}
